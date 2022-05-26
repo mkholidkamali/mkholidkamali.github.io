@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mohamad Kholid Kamali - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #0F172A;">
+        <div class="container">
+            <a class="navbar-brand ps-1 fs-3" style="font-weight: bold;" href="#">KholidKamali</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item px-3 py-2">
+                        <a class="nav-link" aria-current="page" href="#about">About</a>
+                    </li>
+                    <li class="nav-item px-3 py-2">
+                        <a class="nav-link" aria-current="page" href="#project">Projects</a>
+                    </li>
+                    <li class="nav-item px-3 py-2">
+                        <a class="nav-link" aria-current="page" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main style="background-color: #1E293B;" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+
+        <!-- Hero -->
+        <div class="px-2 pb-5 text-white container" style="padding-top: 5%;">
+            <div class="row pb-4">
+                <div class="col-md-8">
+                    <h1 style="color: #E5E7EB;">
+                        My Name is Kholid. <br>
+                        I am <span style="color: #D97706;">Web Developer</span>.
+                    </h1>
+                    <p class="my-4 fs-5" style="color: #c4c4c7;" >
+                        I'm on my way to become a web developer. <br>
+                        I love to learn and develope a website, <br>
+                        especially at <span style="color: #117185;" id="hero-backend">Backend Development.</span>
+                    </p>
+                    <a href="#project" class="btn btn-lg py-3 px-4 mt-4 mb-5 text-white" style="font-size: 1rem;" id="hero-button">My Projects</a> <br><br>
+                    <span style="color: #b0b1b5;">Follow me on social media ----</span>
+                    <div class="mt-2 mb-4">
+                        <a href="https://web.facebook.com/kholid.kamali.1" class="btn rounded-circle px-3 py-2" style="border: 2px;" id="sosmed">
+                            <svg width="10" height="23" viewBox="-1 2 10 16" class="fill-current" style="fill: white;">
+                                <path d="M7.43902 6.4H6.19918H5.75639V5.88387V4.28387V3.76774H6.19918H7.12906C7.3726 3.76774 7.57186 3.56129 7.57186 3.25161V0.516129C7.57186 0.232258 7.39474 0 7.12906 0H5.51285C3.76379 0 2.54609 1.44516 2.54609 3.5871V5.83226V6.34839H2.10329H0.597778C0.287819 6.34839 0 6.63226 0 7.04516V8.90323C0 9.26452 0.243539 9.6 0.597778 9.6H2.05902H2.50181V10.1161V15.3032C2.50181 15.6645 2.74535 16 3.09959 16H5.18075C5.31359 16 5.42429 15.9226 5.51285 15.8194C5.60141 15.7161 5.66783 15.5355 5.66783 15.3806V10.1419V9.62581H6.13276H7.12906C7.41688 9.62581 7.63828 9.41935 7.68256 9.10968V9.08387V9.05806L7.99252 7.27742C8.01466 7.09677 7.99252 6.89032 7.85968 6.68387C7.8154 6.55484 7.61614 6.42581 7.43902 6.4Z"></path>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/kholid_kk/" class="btn rounded-circle px-2 py-2" style="border: 2px;" id="sosmed">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="25px" height="25px" class="fill-current" style="fill: white;">
+                                <path d="M 16.5 5 C 10.16639 5 5 10.16639 5 16.5 L 5 31.5 C 5 37.832757 10.166209 43 16.5 43 L 31.5 43 C 37.832938 43 43 37.832938 43 31.5 L 43 16.5 C 43 10.166209 37.832757 5 31.5 5 L 16.5 5 z M 16.5 8 L 31.5 8 C 36.211243 8 40 11.787791 40 16.5 L 40 31.5 C 40 36.211062 36.211062 40 31.5 40 L 16.5 40 C 11.787791 40 8 36.211243 8 31.5 L 8 16.5 C 8 11.78761 11.78761 8 16.5 8 z M 34 12 C 32.895 12 32 12.895 32 14 C 32 15.105 32.895 16 34 16 C 35.105 16 36 15.105 36 14 C 36 12.895 35.105 12 34 12 z M 24 14 C 18.495178 14 14 18.495178 14 24 C 14 29.504822 18.495178 34 24 34 C 29.504822 34 34 29.504822 34 24 C 34 18.495178 29.504822 14 24 14 z M 24 17 C 27.883178 17 31 20.116822 31 24 C 31 27.883178 27.883178 31 24 31 C 20.116822 31 17 27.883178 17 24 C 17 20.116822 20.116822 17 24 17 z"></path>
+                            </svg>
+                        </a>
+                        <a href="http://www.linkedin.com/in/kholidkamali" class="btn rounded-circle px-2 py-2" style="border: 2px;" id="sosmed">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="-3 -2 30 30" style="fill: white;">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="/img/hero_img.jpg" alt="" class="">
+                    <!-- <span id="hero-circle">
+                        <svg width="93" height="93" viewBox="0 0 93 93" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="2.5" cy="2.5" r="2.5" fill="#3056D3"></circle>
+                            <circle cx="2.5" cy="24.5" r="2.5" fill="#3056D3"></circle>
+                            <circle cx="2.5" cy="46.5" r="2.5" fill="#3056D3"></circle>
+                            <circle cx="2.5" cy="68.5" r="2.5" fill="#3056D3"></circle>
+                            <circle cx="2.5" cy="90.5" r="2.5" fill="#3056D3"></circle>
+                            <circle cx="24.5" cy="2.5" r="2.5" fill="#3056D3"></circle>
+                            <circle cx="24.5" cy="24.5" r="2.5" fill="#3056D3"></circle>
+                            <circle cx="24.5" cy="46.5" r="2.5" fill="#3056D3"></circle>
+                            <circle cx="24.5" cy="68.5" r="2.5" fill="#3056D3"></circle>
+                            <circle cx="24.5" cy="90.5" r="2.5" fill="#3056D3"></circle>
+                            <circle cx="46.5" cy="2.5" r="2.5" fill="#3056D3"></circle>
+                            <circle cx="46.5" cy="24.5" r="2.5" fill="#3056D3"></circle>
+                            <circle cx="46.5" cy="46.5" r="2.5" fill="#3056D3"></circle>
+                            <circle cx="46.5" cy="68.5" r="2.5" fill="#3056D3"></circle>
+                            <circle cx="46.5" cy="90.5" r="2.5" fill="#3056D3"></circle>
+                            <circle cx="68.5" cy="2.5" r="2.5" fill="#3056D3"></circle>
+                            <circle cx="68.5" cy="24.5" r="2.5" fill="#3056D3"></circle>
+                            <circle cx="68.5" cy="46.5" r="2.5" fill="#3056D3"></circle>
+                            <circle cx="68.5" cy="68.5" r="2.5" fill="#3056D3"></circle>
+                            <circle cx="68.5" cy="90.5" r="2.5" fill="#3056D3"></circle>
+                            <circle cx="90.5" cy="2.5" r="2.5" fill="#3056D3"></circle>
+                            <circle cx="90.5" cy="24.5" r="2.5" fill="#3056D3"></circle>
+                            <circle cx="90.5" cy="46.5" r="2.5" fill="#3056D3"></circle>
+                            <circle cx="90.5" cy="68.5" r="2.5" fill="#3056D3"></circle>
+                            <circle cx="90.5" cy="90.5" r="2.5" fill="#3056D3"></circle>
+                        </svg>
+                    </span> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Action button : Project -->
+        <div class="container-fluid w-100" style="background-color: #0d738a;">
+            <span class="position-absolute  h-50 z-[-1]">
+                <svg width="189" height="162" viewBox="0 0 189 162" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <ellipse cx="16" cy="-16.5" rx="173" ry="178.5" transform="rotate(180 16 -16.5)" fill="url(#paint0_linear)"></ellipse>
+                    <defs>
+                        <linearGradient id="paint0_linear" x1="-157" y1="-107.754" x2="98.5011" y2="-106.425" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="white" stop-opacity="0.07"></stop>
+                            <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </span>
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-10">
+                        <h1>Check my recent Project</h1>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="#project" class="btn btn-danger px-4 py-3">Projects</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About -->
+        <div class="container pb-5" style="margin-top: 5%;" id="about">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="/img/me2.jpg" class="w-100 mb-4" style="border-radius: 4%;">
+                            <img src="/img/me3.jpg" class="w-100 mb-4" style="border-radius: 4%;">
+                        </div>
+                        <div class="col-6 d-flex align-self-center">
+                            <img src="/img/me1.jpg" class="w-100 mb-4" style="border-radius: 4%;">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-5 d-flex align-self-center">
+                    <div>
+                        <blockquote>
+                            <span style="border-right: 5px solid white;"></span> 
+                            <em style="color: grey;">&nbsp;"Everything is achievable with hard work."</em>
+                        </blockquote>
+                        <h1>About Me</h1> <br>
+                        <p style="color: #b0b1b5; font-size:medium">
+                            I have been learning web development from school and internet. <br>
+                            During my school I have learned and created on various types of projects. I am very excited to learn more and more.
+                            <br><br>
+                            In 2019 I decided to take a step to work as Web Developer. My skill is mostly focused on 
+                            <span style="color: #F59E0B;">PHP</span> and can work with a few framework.
+                            <br><br>
+                        </p>
+                        <a href="" class="btn px-4 py-3 text-white" style="background-color: #B91C1C;">View my project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <div class="container-fluid" style="background-color: #111827; padding-top: 8%;" id="project">
+            <div class="text-center pb-5" >
+                <h1>My Recent Projects</h1>
+                <p style="color: #536D81;" class="fs-5">
+                    You learn most by build projects. Go ahead <br>
+                    and build something right now
+                </p>
+            </div>
+            <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active py-3 px-4 mb-5" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true" style="background-color: #0C7187;">
+                        All Projects
+                    </button>
+                </li>
+            </ul>
+            <div class="tab-content pb-5" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 mb-5">
+                                <a href="https://github.com/mkholidkamali/lsp-aspirasi-masyarakat" target="_blank">
+                                    <img src="/img/aspirasi.png" alt="" class="w-100" id="project-img" style="border-radius: 10px; position: relative; z-index: 1;">
+                                </a>
+                                <div class="mx-auto px-3 pt-4 text-center" style="background-color: #1E293B; border-radius: 10px; width: 90%; height: 13rem; margin-top: -10%; position: relative; z-index: 2;">
+                                    <span style="color: #0C7187;">Laravel, Bootstrap</span>
+                                    <p class="pt-2" style="color: #E5E7EB;">Aspirasi Masyrakat</p>
+                                    <a href="https://github.com/mkholidkamali/lsp-aspirasi-masyarakat" target="_blank" class="btn text-white my-2 px-3 py-2" id="project-button">View Details</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-5">
+                                <a href="https://github.com/mkholidkamali/project-laravel-todolist" target="_blank">
+                                    <img src="/img/todolist.png" class="w-100" id="project-img" style="border-radius: 10px; position: relative; z-index: 1;">
+                                </a>
+                                <div class="mx-auto px-3 pt-4 text-center" style="background-color: #1E293B; border-radius: 10px; width: 90%; height: 13rem; margin-top: -10%; position: relative; z-index: 2;">
+                                    <span style="color: #0C7187;">Laravel, Bootstrap</span>
+                                    <p class="pt-2" style="color: #E5E7EB;">Todolist with laravel implementation</p>
+                                    <a href="https://github.com/mkholidkamali/project-laravel-todolist" target="_blank" class="btn text-white my-2 px-3 py-2" id="project-button">View Details</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-5">
+                                <a href="https://github.com/mkholidkamali/project-laravel-fortel" target="_blank">
+                                    <img src="/img/fortel.png" alt="" class="w-100" id="project-img" style="border-radius: 10px; position: relative; z-index: 1;">
+                                </a>
+                                <div class="mx-auto px-3 pt-4 text-center" style="background-color: #1E293B; border-radius: 10px; width: 90%; height: 13rem; margin-top: -10%; position: relative; z-index: 2;">
+                                    <span style="color: #0C7187;">Laravel, Bootstrap</span>
+                                    <p class="pt-2" style="color: #E5E7EB;">Forum Telkom with laravel implementation</p>
+                                    <a href="https://github.com/mkholidkamali/project-laravel-fortel" target="_blank" class="btn text-white my-2 px-3 py-2" id="project-button">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="container-fluid" style="background-color: #0C7187; padding-top: 8%; padding-bottom: 8%;" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h1 class="pb-2">FOR BUSINESS ENQUIRIES</h1>
+                        <p style="color: #dad1d1;">
+                            If you feel my experience and skills fits your <br>
+                            needs, feel free to contact me.
+                        </p>
+                        <div class="row pt-4">
+                            <div class="col-md-2 text-center align-self-center">
+                                <i class="bi bi-envelope-fill fs-2"></i>
+                            </div>
+                            <div class="col-md-10">
+                                <h4>Email Address</h4>
+                                <span style="color: #dad1d1;">mohamadkholid.kamali@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 rounded p-5" style="background-color: #0F172A;">
+                        <form action="https://formspree.io/f/moqrrdej" method="post">
+                            <div class="form-floating mb-3" style="color: #9CA3AF;">
+                                <input type="text" name="name" class="form-control" id="floatingInput" placeholder="name@example.com" style="background-color: #1E293B; color: #9CA3AF;" required>
+                                <label for="floatingInput">Your Name</label>
+                            </div>
+                            <div class="form-floating mb-3" style="color: #9CA3AF;">
+                                <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com" style="background-color: #1E293B; color: #9CA3AF;" required>
+                                <label for="floatingInput">Your Email</label>
+                            </div>
+                            <div class="form-floating" style="color: #9CA3AF;">
+                                <textarea class="form-control" name="message" placeholder="Leave a message here" id="floatingTextarea2" style="height: 10rem;background-color: #1E293B; color: #9CA3AF;" required></textarea>
+                                <label for="floatingTextarea2">Your Message</label>
+                            </div>
+                            <div class="mt-4 d-grid gap-2">
+                                <button type="submit" name="submit" class="btn text-white" style="background-color: #0C7187;">
+                                    Send Message
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer style="background-color: #1E293B; " class="container-fluid py-4 ">
+        <div class="container d-flex justify-content-between">
+            <h3 class="align-items-center pt-2">Follow me on social media</h3>
+            <div>
+                <a href="https://web.facebook.com/kholid.kamali.1" class="btn rounded-circle px-3 py-2" id="footer-sosmed">
+                    <svg width="10" height="23" viewBox="-1 2 10 16" class="fill-current" style="fill: white;">
+                        <path d="M7.43902 6.4H6.19918H5.75639V5.88387V4.28387V3.76774H6.19918H7.12906C7.3726 3.76774 7.57186 3.56129 7.57186 3.25161V0.516129C7.57186 0.232258 7.39474 0 7.12906 0H5.51285C3.76379 0 2.54609 1.44516 2.54609 3.5871V5.83226V6.34839H2.10329H0.597778C0.287819 6.34839 0 6.63226 0 7.04516V8.90323C0 9.26452 0.243539 9.6 0.597778 9.6H2.05902H2.50181V10.1161V15.3032C2.50181 15.6645 2.74535 16 3.09959 16H5.18075C5.31359 16 5.42429 15.9226 5.51285 15.8194C5.60141 15.7161 5.66783 15.5355 5.66783 15.3806V10.1419V9.62581H6.13276H7.12906C7.41688 9.62581 7.63828 9.41935 7.68256 9.10968V9.08387V9.05806L7.99252 7.27742C8.01466 7.09677 7.99252 6.89032 7.85968 6.68387C7.8154 6.55484 7.61614 6.42581 7.43902 6.4Z"></path>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/kholid_kk/" class="btn rounded-circle px-2 py-2" id="footer-sosmed">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="25px" height="25px" class="fill-current" style="fill: white;">
+                        <path d="M 16.5 5 C 10.16639 5 5 10.16639 5 16.5 L 5 31.5 C 5 37.832757 10.166209 43 16.5 43 L 31.5 43 C 37.832938 43 43 37.832938 43 31.5 L 43 16.5 C 43 10.166209 37.832757 5 31.5 5 L 16.5 5 z M 16.5 8 L 31.5 8 C 36.211243 8 40 11.787791 40 16.5 L 40 31.5 C 40 36.211062 36.211062 40 31.5 40 L 16.5 40 C 11.787791 40 8 36.211243 8 31.5 L 8 16.5 C 8 11.78761 11.78761 8 16.5 8 z M 34 12 C 32.895 12 32 12.895 32 14 C 32 15.105 32.895 16 34 16 C 35.105 16 36 15.105 36 14 C 36 12.895 35.105 12 34 12 z M 24 14 C 18.495178 14 14 18.495178 14 24 C 14 29.504822 18.495178 34 24 34 C 29.504822 34 34 29.504822 34 24 C 34 18.495178 29.504822 14 24 14 z M 24 17 C 27.883178 17 31 20.116822 31 24 C 31 27.883178 27.883178 31 24 31 C 20.116822 31 17 27.883178 17 24 C 17 20.116822 20.116822 17 24 17 z"></path>
+                    </svg>
+                </a>
+                <a href="http://www.linkedin.com/in/kholidkamali" class="btn rounded-circle px-2 py-2" id="footer-sosmed">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="-3 -2 30 30" style="fill: white;">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

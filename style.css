@@ -1,0 +1,63 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    color: #E5E7EB;
+}
+
+#hero-backend:hover {
+    border-bottom: 5px solid #106477;
+}
+
+#hero-button {
+    background-color: #0C7187;
+    border: 2px solid #106477;
+}
+
+#hero-button:hover {
+    background-color: #106477;
+    border: 2px solid #106477;
+}
+
+#sosmed:hover {
+    background-color: #0C7187;
+    border: 2px solid #0C7187;
+}
+
+#project-img {
+    transition: transform 150ms ease-in-out;
+}
+
+#project-img:hover {
+    transform: scale(1.1);
+}
+
+#project-button {
+    border: 1px solid white;
+}
+
+#project-button:hover {
+    border: 1px solid #0C7187;
+    background-color: #0C7187;
+}
+
+#footer-sosmed {
+    border: 2px solid white;
+}
+
+#footer-sosmed:hover {
+    background-color: #0C7187;
+    border: 2px solid #0C7187;
+}
+
+/* #hero-circle {
+    position: absolute;
+    top: 30%;
+    right: 30%;
+} */
+
+/* #navbars li {
+    padding-top: 10%;
+} */
